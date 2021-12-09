@@ -25,7 +25,8 @@ ln -s "$HOME/zsh/.zshrc" $HOME/.zshrc
 PKGS=(
 'autojump'
 'awesome-terminal-fonts'
-'brave-bin' # Brave Browser
+#'brave-bin' # Brave Browser
+'firefox'
 'dxvk-bin' # DXVK DirectX to Vulcan
 'github-desktop-bin' # Github Desktop sync
 'lightly-git'
@@ -39,7 +40,7 @@ PKGS=(
 'nordic-theme'
 'noto-fonts-emoji'
 'papirus-icon-theme'
-'plasma-pa'
+#'plasma-pa'
 'ocs-url' # install packages from websites
 'sddm-nordic-theme-git'
 'snapper-gui-git'
@@ -47,7 +48,7 @@ PKGS=(
 'ttf-hack'
 'ttf-meslo' # Nerdfont package
 'ttf-roboto'
-'zoom' # video conferences
+#'zoom' # video conferences
 'snap-pac'
 )
 
@@ -57,10 +58,10 @@ done
 
 export PATH=$PATH:~/.local/bin
 cp -r $HOME/ArchTitus/dotfiles/* $HOME/.config/
-pip install konsave
-konsave -i $HOME/ArchTitus/kde.knsv
-sleep 1
-konsave -a kde
+#pip install konsave
+#konsave -i $HOME/ArchTitus/kde.knsv
+#sleep 1
+#konsave -a kde
 
 echo -e "\nDone!\n"
 exit
