@@ -63,8 +63,8 @@ PKGS=(
 'xorg-xinit'
 'xterm'
 #'plasma-desktop' # KDE Load second
-'xfce4'
-'xfce4-goodies'
+'deepin'
+'deepin-extra'
 'alsa-plugins' # audio plugins
 'alsa-utils' # audio utils
 'ark' # compression
@@ -107,7 +107,7 @@ PKGS=(
 'gcc'
 'gimp' # Photo editing
 'git'
-'gparted' # partition management
+#'gparted' # partition management
 'gptfdisk'
 'grub'
 'grub-customizer'
